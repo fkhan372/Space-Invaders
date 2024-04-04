@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\Sheridan\Semester5\GameEngineering\SpaceInvaders\Source.cpp(58,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Sheridan\Semester5\GameEngineering\SpaceInvaders\Source.cpp(305,29): warning C4804: '<=': unsafe use of type 'bool' in operation
+  SpaceInvaders.vcxproj -> D:\Sheridan\Semester5\GameEngineering\SpaceInvaders\Debug\SpaceInvaders.exe

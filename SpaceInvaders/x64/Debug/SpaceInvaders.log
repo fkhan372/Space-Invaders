@@ -1,0 +1,54 @@
+﻿Source.obj : error LNK2019: unresolved external symbol __imp__calloc_dbg referenced in function "char * __cdecl std::_Maklocstr<char>(char const *,char *,struct _Cvtvec const &)" (??$_Maklocstr@D@std@@YAPEADPEBDPEADAEBU_Cvtvec@@@Z)
+Source.obj : error LNK2019: unresolved external symbol memcpy referenced in function wmemcpy
+Source.obj : error LNK2019: unresolved external symbol __imp_wcslen referenced in function "wchar_t * __cdecl std::_Maklocwcs(wchar_t const *)" (?_Maklocwcs@std@@YAPEA_WPEB_W@Z)
+Source.obj : error LNK2019: unresolved external symbol strlen referenced in function "char * __cdecl std::_Maklocstr<char>(char const *,char *,struct _Cvtvec const &)" (??$_Maklocstr@D@std@@YAPEADPEBDPEADAEBU_Cvtvec@@@Z)
+Source.obj : error LNK2019: unresolved external symbol "void __cdecl std::_Xbad_alloc(void)" (?_Xbad_alloc@std@@YAXXZ) referenced in function "char * __cdecl std::_Maklocstr<char>(char const *,char *,struct _Cvtvec const &)" (??$_Maklocstr@D@std@@YAPEADPEBDPEADAEBU_Cvtvec@@@Z)
+Source.obj : error LNK2019: unresolved external symbol _Mbrtowc referenced in function "wchar_t * __cdecl std::_Maklocstr<wchar_t>(char const *,wchar_t *,struct _Cvtvec const &)" (??$_Maklocstr@_W@std@@YAPEA_WPEBDPEA_WAEBU_Cvtvec@@@Z)
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: struct _Cvtvec __cdecl std::_Locinfo::_Getcvt(void)const " (__imp_?_Getcvt@_Locinfo@std@@QEBA?AU_Cvtvec@@XZ) referenced in function "protected: void __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::_Getvals<wchar_t>(wchar_t,class std::_Locinfo const &)" (??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z)
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: char const * __cdecl std::_Locinfo::_Getdays(void)const " (__imp_?_Getdays@_Locinfo@std@@QEBAPEBDXZ) referenced in function "protected: void __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::_Getvals<wchar_t>(wchar_t,class std::_Locinfo const &)" (??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z)
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: char const * __cdecl std::_Locinfo::_Getmonths(void)const " (__imp_?_Getmonths@_Locinfo@std@@QEBAPEBDXZ) referenced in function "protected: void __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::_Getvals<wchar_t>(wchar_t,class std::_Locinfo const &)" (??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z)
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: unsigned short const * __cdecl std::_Locinfo::_W_Getdays(void)const " (__imp_?_W_Getdays@_Locinfo@std@@QEBAPEBGXZ) referenced in function "protected: void __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::_Getvals<wchar_t>(wchar_t,class std::_Locinfo const &)" (??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z)
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: unsigned short const * __cdecl std::_Locinfo::_W_Getmonths(void)const " (__imp_?_W_Getmonths@_Locinfo@std@@QEBAPEBGXZ) referenced in function "protected: void __cdecl std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >::_Getvals<wchar_t>(wchar_t,class std::_Locinfo const &)" (??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z)
+Source.obj : error LNK2019: unresolved external symbol "private: static class std::locale::_Locimp * __cdecl std::locale::_Init(bool)" (?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z) referenced in function "public: __cdecl std::locale::locale(void)" (??0locale@std@@QEAA@XZ)
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::~String(void)" (__imp_??1String@sf@@QEAA@XZ) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QEAA@III@Z) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl sf::WindowBase::isOpen(void)const " (__imp_?isOpen@WindowBase@sf@@QEBA_NXZ) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl sf::WindowBase::pollEvent(class sf::Event &)" (__imp_?pollEvent@WindowBase@sf@@QEAA_NAEAVEvent@2@@Z) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual void __cdecl sf::Window::close(void)" (__imp_?close@Window@sf@@UEAAXXZ) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Window::display(void)" (__imp_?display@Window@sf@@QEAAXXZ) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Color::Color(unsigned char,unsigned char,unsigned char,unsigned char)" (__imp_??0Color@sf@@QEAA@EEEE@Z) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Shape::setFillColor(class sf::Color const &)" (__imp_?setFillColor@Shape@sf@@QEAAXAEBVColor@2@@Z) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::CircleShape::CircleShape(float,unsigned __int64)" (__imp_??0CircleShape@sf@@QEAA@M_K@Z) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::CircleShape::~CircleShape(void)" (__imp_??1CircleShape@sf@@UEAA@XZ) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::clear(class sf::Color const &)" (__imp_?clear@RenderTarget@sf@@QEAAXAEBVColor@2@@Z) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_??0RenderWindow@sf@@QEAA@VVideoMode@1@AEBVString@1@IAEBUContextSettings@1@@Z) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::RenderWindow::~RenderWindow(void)" (__imp_??1RenderWindow@sf@@UEAA@XZ) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol _RTC_CheckStackVars referenced in function "wchar_t * __cdecl std::_Maklocstr<wchar_t>(char const *,wchar_t *,struct _Cvtvec const &)" (??$_Maklocstr@_W@std@@YAPEA_WPEBDPEA_WAEBU_Cvtvec@@@Z)
+Source.obj : error LNK2001: unresolved external symbol _RTC_InitBase
+Source.obj : error LNK2001: unresolved external symbol _RTC_Shutdown
+Source.obj : error LNK2001: unresolved external symbol __CxxFrameHandler4
+Source.obj : error LNK2001: unresolved external symbol __GSHandlerCheck
+Source.obj : error LNK2001: unresolved external symbol __GSHandlerCheck_EH4
+Source.obj : error LNK2019: unresolved external symbol __security_check_cookie referenced in function "wchar_t * __cdecl std::_Maklocstr<wchar_t>(char const *,wchar_t *,struct _Cvtvec const &)" (??$_Maklocstr@_W@std@@YAPEA_WPEBDPEA_WAEBU_Cvtvec@@@Z)
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::Color const sf::Color::Green" (__imp_?Green@Color@sf@@2V12@B) referenced in function main
+Source.obj : error LNK2019: unresolved external symbol __security_cookie referenced in function "wchar_t * __cdecl std::_Maklocstr<wchar_t>(char const *,wchar_t *,struct _Cvtvec const &)" (??$_Maklocstr@_W@std@@YAPEA_WPEBDPEA_WAEBU_Cvtvec@@@Z)
+Source.obj : error LNK2001: unresolved external symbol _fltused
+LINK : error LNK2001: unresolved external symbol mainCRTStartup
+D:\SFML-2.6.1\lib\freetype.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\SFML-2.6.1\lib\ogg.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\SFML-2.6.1\lib\openal32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\SFML-2.6.1\lib\sfml-audio-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\SFML-2.6.1\lib\sfml-graphics-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\SFML-2.6.1\lib\sfml-main-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\SFML-2.6.1\lib\sfml-network-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\SFML-2.6.1\lib\sfml-system-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\SFML-2.6.1\lib\sfml-window-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\SFML-2.6.1\lib\vorbis.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\SFML-2.6.1\lib\vorbisenc.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\SFML-2.6.1\lib\vorbisfile.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\VisualStudio\VC\Tools\MSVC\14.35.32215\lib\onecore\x86\msvcprtd.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\VisualStudio\VC\Tools\MSVC\14.35.32215\lib\onecore\x86\MSVCRTD.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Sheridan\Semester5\GameEngineering\SpaceInvaders\x64\Debug\SpaceInvaders.exe : fatal error LNK1120: 39 unresolved externals
